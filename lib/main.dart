@@ -3,6 +3,7 @@ import 'package:e_commerce_app/src/features/auth/presentation/pages/user_data.da
 import 'package:e_commerce_app/src/features/cart/presentation/pages/cart_page.dart';
 import 'package:e_commerce_app/src/features/home/presentation/pages/home_page.dart';
 import 'package:e_commerce_app/src/features/home/presentation/pages/view_item_page.dart';
+import 'package:e_commerce_app/src/features/profile/presentation/pages/profile_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const CartPage());
+        home: const ProfilePage());
         
         //  const ItemViewPage(
         //     title: 'title',

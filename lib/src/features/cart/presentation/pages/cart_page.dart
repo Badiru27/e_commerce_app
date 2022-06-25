@@ -11,10 +11,11 @@ class CartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.kcWhiteColor,
+        backgroundColor: AppColors.kcWhiteColor,
       appBar: AppBar(
-        backgroundColor: AppColors.kcPrimaryColor,
-        title: const Text('Add to Cart'),
+        elevation: 0,
+        title: const Text('Add to cart', style: AppTextStyles.headerThreeStyle),
+        backgroundColor: AppColors.kcWhiteColor,
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
