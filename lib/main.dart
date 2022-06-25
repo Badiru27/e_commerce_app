@@ -1,4 +1,5 @@
-import 'package:e_commerce_app/src/features/auth/presentation/pages/login_page.dart';
+import 'package:e_commerce_app/src/features/auth/presentation/pages/sign_in_page.dart';
+import 'package:e_commerce_app/src/features/auth/presentation/pages/user_data.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,12 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const LoginPage()
-    );
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: const UserDataPage());
   }
 }
-
