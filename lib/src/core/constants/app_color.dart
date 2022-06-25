@@ -2,6 +2,14 @@ import 'package:flutter/material.dart';
 
 class AppColors{
   static const kcPrimaryColor = Color(0xFFFB786B);
+    static const boxShadowColor = [
+    BoxShadow(
+      color: Color(0xFFD3D4D9),
+      spreadRadius: 1,
+      blurRadius: 30,
+    ),
+  ];
+
   static const kcGreenColor = Color(0xFF94D500);
   static const kcLightGreyColor = Color(0xFFE9EAEF);
   static const kcMediumGreyColor = Color(0xFFD4D4D4);

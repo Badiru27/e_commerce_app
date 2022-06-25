@@ -1,5 +1,8 @@
 import 'package:e_commerce_app/src/features/auth/presentation/pages/sign_in_page.dart';
 import 'package:e_commerce_app/src/features/auth/presentation/pages/user_data.dart';
+import 'package:e_commerce_app/src/features/cart/presentation/pages/cart_page.dart';
+import 'package:e_commerce_app/src/features/home/presentation/pages/home_page.dart';
+import 'package:e_commerce_app/src/features/home/presentation/pages/view_item_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +20,13 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const UserDataPage());
+        home: const CartPage());
+        
+        //  const ItemViewPage(
+        //     title: 'title',
+        //     description: 'description',
+        //     imageUrl:
+        //         'https://ng.jumia.is/cms/0-6-anniversary/2022/jfood/JA_Food_50Percent_Homepage-(712x384).jpg',
+        //     price: 'location'));
   }
 }
